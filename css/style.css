@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: rgb(15, 14, 14);
+    background-color: rgb(31, 28, 28);
 }
 
 
@@ -172,14 +172,17 @@ label{
 
 .cont-principal{
     display: flex;
-    background-color:  rgb(133, 198, 228);
+    background-color: rgb(107, 110, 108);
     height: 450px;
     width: 1000px;
     border-bottom-right-radius: 100px;
+    background-image: url(/img/imgbanner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     overflow-x:hidden;
     overflow-y:hidden;
     transition: all ease .5s;
-    border-top: 2px solid rgb(14, 4, 56);
+    border-top: 2px solid rgb(255, 255, 255);
 }
 
 

@@ -135,3 +135,5 @@ function cursos(){
     cursoModal.style.display="none"
  }
 
+ document.querySelector(".cont-principal").style.backgroundImage = "url('img/imgbanner.png')";
+
