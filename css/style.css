@@ -1,0 +1,214 @@
+body{
+    margin: 0px;
+}
+
+
+
+
+/*MENU*/
+
+.container{
+    background-color: rgb(63, 63, 105);
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 10px;
+    list-style-type: none;
+}
+li:hover{
+    border-bottom: 2px solid rgb(228, 225, 225);
+    color: rgb(132, 248, 167);
+    cursor: pointer;
+    
+}
+
+
+
+/*modal*/
+.cont-modal{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: aqua;
+   
+    
+}
+.perfil{
+    background-color: rgb(247, 247, 247);
+    border-top: 2px solid rgb(138, 185, 28);
+    width: 600px; 
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+.obetivo{
+    background-color: rgb(247, 247, 247);
+    border-top: 2px solid rgb(138, 185, 28);
+    width: 600px; 
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+.formacao{
+    background-color: rgb(247, 247, 247);
+    border-top: 2px solid rgb(138, 185, 28);
+    width: 600px;
+    border-radius: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    padding: 10px;
+    overflow-x:hidden;
+   overflow-y:auto;
+   transition: all ease .5s;
+    font-size: 13pt;
+    color: rgb(139, 136, 136);
+    position: absolute;
+    display: none;
+
+}
+h2{
+    color:  rgb(63, 63, 105);
+    margin-top: 2px;
+    font-size: 17pt;
+}
+h3{
+    font-size: 12pt;
+
+}
+#teste{
+    margin-top: -15px;
+    margin-left: 35px;
+}
+
+.experiencia{
+        background-color: rgb(247, 247, 247);
+        border-top: 2px solid rgb(138, 185, 28);
+        width: 600px; 
+        height: 300px;
+        margin-top: 50px;
+        border-radius: 5px; 
+        display: none;
+        position: absolute;
+}
+button{
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color:rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(173, 122, 221);
+    border-bottom: 2px solid rgb(5, 4, 4);
+}
+
+label{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.hab-ferr{
+    background-color: rgb(247, 247, 247);
+    border-top: 2px solid rgb(138, 185, 28);
+    width: 600px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    padding: 10px;
+    font-size: 13pt;
+    color: rgb(139, 136, 136);
+    display: none;
+    position: absolute;
+
+}
+.cursos{
+    background-color: rgb(247, 247, 247);
+    border-top: 2px solid rgb(138, 185, 28);
+    width: 600px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    padding: 10px;
+    font-size: 13pt;
+    color: rgb(139, 136, 136);
+    display: none;
+    position: absolute;
+
+}
+
+/*
+.obetivo{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid black;
+    width: 400px;   
+*/
+
+
+
+
+
+
+/*PRINCIPAL*/
+
+.cont-principal{
+    display: flex;
+    background-color:  rgb(133, 198, 228);
+    height: 450px;
+    width: 1000px;
+    border-bottom-right-radius: 100px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    transition: all ease .5s;
+    border-top: 2px solid rgb(14, 4, 56);
+}
+
+
+.foto{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+#foto{
+    border-radius: 50%;
+    border: 20px solid rgb(238, 234, 234);
+}
+
+#texto{
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-right: 5px solid rgb(119, 95, 252);
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    margin: 5px;
+    padding: 10px;
+    font-size: 13pt;
+    color: rgb(139, 136, 136);
+}
