@@ -126,8 +126,8 @@ function cursos(){
 
  function home(){
      let abrir = document.querySelector(".cont-principal");
-     abrir.style.width="1000px";
-     perfilModal.style.display="none";
+    abrir.style.width="1000px";
+    perfilModal.style.display="none";
     objetivoModal.style.display="none";
     formacaoModal.style.display="none";
     experiModal.style.display="none";
